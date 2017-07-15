@@ -1,0 +1,623 @@
+@font-face {
+  font-family: 'Conv_GothamHTF-Black';
+  src: url("../fonts/GothamHTF-Black.eot");
+  src: local('☺'), url("../fonts/GothamHTF-Black.woff") format('woff'), url("../fonts/GothamHTF-Black.ttf") format('truetype'), url("../fonts/GothamHTF-Black.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothamHTF-Bold';
+  src: url("../fonts/GothamHTF-Bold.eot");
+  src: local('☺'), url("../fonts/GothamHTF-Bold.woff") format('woff'), url("../fonts/GothamHTF-Bold.ttf") format('truetype'), url("../fonts/GothamHTF-Bold.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothamHTF-Book';
+  src: url("../fonts/GothamHTF-Book.eot");
+  src: local('☺'), url("../fonts/GothamHTF-Book.woff") format('woff'), url("../fonts/GothamHTF-Book.ttf") format('truetype'), url("../fonts/GothamHTF-Book.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothamHTF-Light';
+  src: url("../fonts/GothamHTF-Light.eot");
+  src: local('☺'), url("../fonts/GothamHTF-Light.woff") format('woff'), url("../fonts/GothamHTF-Light.ttf") format('truetype'), url("../fonts/GothamHTF-Light.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_GothamHTF-Medium';
+  src: url("../fonts/GothamHTF-Medium.eot");
+  src: local('☺'), url("../fonts/GothamHTF-Medium.woff") format('woff'), url("../fonts/GothamHTF-Medium.ttf") format('truetype'), url("../fonts/GothamHTF-Medium.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: Conv_GothamHTF-Medium;
+}
+.navbar.navbar-default {
+  background-color: #ff4800;
+}
+.btn-danger {
+  border: 1px solid #ff4800;
+  background-color: transparent;
+  transition: 0.5s ease all;
+  color: #ff4800;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #ff4800;
+}
+label {
+  font-size: 12px;
+  font-family: Conv_GothamHTF-Light;
+}
+.title-comunicado,
+.title-aside {
+  margin: 10px 0 20px 0;
+  font-size: 23px;
+  font-family: Conv_GothamHTF-Bold;
+}
+.list-menu-right {
+  font-family: Conv_GothamHTF-Medium;
+  font-size: 11px;
+  vertical-align: middle;
+}
+.list-menu-right a {
+  padding-top: 13px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+  border-top: none;
+  transition: 0.5s ease all;
+}
+.list-menu-right i {
+  font-size: 16px;
+  color: #e0dfdf;
+  margin-right: 6px;
+}
+.list-menu-right .badge {
+  font-size: 15px;
+  background-color: transparent;
+}
+.list-menu-right .glyphicon-menu-right {
+  font-size: 12px;
+  margin-right: -8px;
+}
+.comunicado-content {
+  font-family: Conv_GothamHTF-Book;
+  font-size: 11px;
+  color: #737373;
+  line-height: 12px;
+  position: relative;
+}
+.comunicado-date {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  letter-spacing: -1px;
+  font-size: 10px;
+  color: #bebebf;
+  font-family: Conv_GothamHTF-Light;
+}
+.media-heading {
+  font-family: Conv_GothamHTF-bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.comunicado-box {
+  border-top: none;
+  padding-top: 0px;
+  margin-top: 5px;
+  padding-bottom: 0px;
+}
+.comunicado-box .media-body .media-heading{
+  max-width: 80%;
+}
+.form-control {
+  padding: 10px 25px;
+  height: auto;
+  font-family: Conv_GothamHTF-Book;
+  border: 1px solid #6f6f6f;
+}
+.recordarme {
+  color: #000;
+  text-decoration: underline;
+  font-family: Conv_GothamHTF-Light;
+  font-size: 13px;
+  text-decoration: none;
+}
+.cuadradito_check {
+  border: 1px solid #b4b5b7;
+  width: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  height: 20px;
+  border-radius: 2px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.cuadradito_check img {
+  position: absolute;
+  top: -16px;
+  left: 14px;
+}
+.menu-right .profile-box {
+  padding: 20px 0;
+}
+.menu-right .profile-box .content-profile {
+  padding: 15px 20px;
+}
+.profile-name {
+  font-family: Conv_GothamHTF-bold;
+  line-height: 18px;
+  font-size: 17px;
+}
+.progress {
+  height: auto;
+  margin-bottom: 0;
+  font-weight: normal;
+  border: 1px solid #dedede;
+  background-color: #fff;
+}
+.progress-bar-success {
+  padding: 6px;
+  border: none;
+  vertical-align: middle;
+}
+.progress-bar-success p {
+  margin-bottom: 0;
+  font-family: Conv_GothamHTF-Light;
+}
+.content-main .tittle {
+  font-family: Conv_GothamHTF-Bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content-main #periodos {
+  padding: 10px 15px;
+  width: 125px;
+  float: right;
+  height: auto;
+  color: #ccc;
+  font-family: Conv_GothamHTF-Book;
+  border: 1px solid #dadada;
+  box-shadow: none;
+}
+.content-main small {
+  color: #bfbebe;
+  font-size: 15px;
+  font-family: Conv_GothamHTF-Book;
+}
+.content-main table {
+  margin-top: 20px;
+}
+.content-main table thead tr th {
+  font-family: Conv_GothamHTF-Book;
+  font-size: 11px;
+  color: #5a5a5a;
+  border-bottom: 2px solid #d8d8d8;
+}
+.content-main table tbody {
+  border-bottom: 1px solid #d8d8d8;
+}
+.content-main table tbody tr td {
+  font-family: Conv_GothamHTF-Book;
+  font-size: 10px;
+  padding: 10px 5px;
+  border: none;
+}
+.content-main table tbody .desaprobado {
+  color: #f00;
+}
+.alert-box .fa-info-circle {
+  font-size: 60px;
+  margin-bottom: 0px;
+  color: #0a8fe0;
+}
+.alert-box h2 {
+  font-family: Conv_GothamHTF-Bold;
+  font-size: 23px;
+  line-height: 19px;
+  margin-top: 5px;
+}
+.alert-box p {
+  font-family: Conv_GothamHTF-Book;
+  font-size: 10px;
+  color: #828282;
+  line-height: 18px;
+}
+.redord .modal-dialog {
+  max-width: 350px;
+  width: 100%;
+}
+.redord .modal-dialog .modal-content {
+  border-radius: 0px;
+}
+.redord .modal-dialog .modal-content .modal-title {
+  font-family: Conv_GothamHTF-bold;
+  padding-right: 30px;
+  font-size: 17px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+.redord .modal-dialog .modal-content .modal-header {
+  padding: 15px 25px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.redord .modal-dialog .modal-content .close {
+  opacity: 1;
+  right: 11px;
+  font-size: 20px;
+  top: 9px;
+  position: absolute;
+}
+.redord .modal-dialog .modal-content .close span {
+  font-weight: bold;
+  color: #ff4800;
+  font-size: 37px;
+}
+.redord .modal-dialog .modal-content .modal-body {
+  padding: 15px 25px;
+}
+.redord .modal-dialog .modal-content .modal-body #record-detalle tr th {
+  font-family: Conv_GothamHTF-Medium;
+  font-size: 11px;
+  color: #4e4e4e;
+  padding: 7px 10px;
+}
+.redord .modal-dialog .modal-content .modal-body #record-detalle tr td {
+  font-family: Conv_GothamHTF-Book;
+}
+.pagosPage {
+  margin-top: 15px;
+}
+.pagosPage .tittle {
+  margin-bottom: 30px;
+  font-size: 29px;
+  letter-spacing: -2px;
+}
+.pagosPage .top {
+  display: block;
+  overflow: hidden;
+}
+.pagosPage .panel-heading {
+  padding: 0;
+}
+.pagosPage .panel-heading p {
+  font-family: Conv_GothamHTF-Medium;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+  color: #5a5a5a;
+  border-bottom: 2px solid #d8d8d8;
+}
+.pagosPage .panel-group .panel {
+  display: block;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  padding: 0px 0px 0px 7px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.pagosPage .panel-group .panel .ciclo-txt {
+  font-family: Conv_GothamHTF-Book;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.pagosPage .panel-collapse .panel-body {
+  border-top: none !important;
+}
+.table-responsives {
+  padding-right: 25px;
+}
+.horarioPage {
+  padding-top: 25px;
+}
+.table-horario {
+  margin-top: 5px;
+  border: none;
+}
+.table-horario thead tr td {
+  font-size: 11px;
+  padding: 10px;
+  padding: 9px;
+  text-align: center;
+  font-family: Conv_GothamHTF-Book;
+}
+.table-horario .hour {
+  font-size: 10px;
+  text-align: center;
+  font-family: Conv_GothamHTF-Book;
+  padding: 10px;
+  border: none;
+  color: #a2a2a2;
+}
+.perfilPage {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.perfilPage .btn-change-password {
+  background-color: #ff4800;
+  text-transform: uppercase;
+  font-family: Conv_GothamHTF-Book;
+  font-size: 12px;
+  padding: 10px 23px;
+  border-radius: 2px;
+}
+.perfilPage .profile-student {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.perfilPage .profile-student .profile-data {
+  padding: 0;
+  padding-left: 10px;
+}
+.perfilPage .profile-student .profile-data .media-heading {
+  padding-right: 30px;
+}
+.perfilPage .profile-student .profile-data span {
+  line-height: 10px;
+  font-size: 9px;
+  font-family: Conv_GothamHTF-Medium;
+  color: #cdcdcd;
+  text-transform: uppercase;
+}
+.perfilPage .profile-student .profile-data p {
+  font-size: 12px;
+  line-height: 9px;
+  font-family: Conv_GothamHTF-Medium;
+  color: #8c8c8c;
+  text-transform: Capitalize;
+  margin-bottom: 0;
+}
+.perfilPage .profile-helper {
+  padding: 15px 0px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+.perfilPage .profile-helper .media-body {
+  font-size: 11px;
+  font-family: Conv_GothamHTF-Book;
+  color: #424242;
+}
+.perfilPage .profile-helper .media-right .btn-suscription {
+  background-color: #ff4800;
+  text-transform: uppercase;
+  font-family: Conv_GothamHTF-Book;
+  font-size: 12px;
+  padding: 10px 23px;
+  border-radius: 2px;
+}
+.perfilPage hr {
+  margin-right: 0px;
+  margin-left: 0;
+}
+.perfilPage .tittle {
+  margin-bottom: 15px;
+}
+.perfilPage .profile-row {
+  margin-bottom: 0;
+}
+.perfilPage .profile-row h4 {
+  font-family: Conv_GothamHTF-Medium;
+  color: #656464;
+  font-size: 12px;
+}
+.perfilPage .profile-row p {
+  font-family: Conv_GothamHTF-book;
+  color: #a5a5a5;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.detallesPage {
+  padding-top: 15px;
+}
+.detallesPage .tittle {
+  margin-bottom: 20px;
+  font-size: 29px;
+}
+.detallesPage .faq-enlaces {
+  padding-top: 0;
+}
+.detallesPage .faq-enlaces .icon-ref {
+  margin-top: 1px;
+  color: #5a5a5a;
+  text-transform: uppercase;
+  font-size: 15px;
+  vertical-align: top;
+  font-family: Conv_GothamHTF-Medium;
+  margin-right: 5px;
+}
+.detallesPage .faq-enlaces .icon-ref .fa-question-circle-o {
+  font-size: 20px;
+  margin-top: 2px;
+  color: #423f3f;
+}
+.detallesPage .faq-enlaces .icon-ref .fa-graduation-cap {
+  font-size: 19px;
+  margin-top: 2px;
+  color: #423f3f;
+}
+.detallesPage .faq-enlaces .icon-ref i {
+  font-size: 22px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.roll {
+	background:center center no-repeat #fff;
+	height: 114px;
+	position: absolute;
+	text-align: center;
+	line-height: 153px;
+	width: 100px;
+	z-index: 10;	
+}
+.roll:before {
+    content: "\f00e"; 
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #784669;
+    font-size: 40px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: -25px;
+    left: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-main {
+    padding: 20px 0px;
+  }
+  #content-movil {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  #content-movil hr {
+    margin-bottom: 20px;
+  }
+  #content-movil .content-main {
+    padding: 0px;
+  }
+  #content-movil .content-main .elserve {
+    display: block;
+    overflow: hidden;
+    margin: 0px -15px;
+  }
+  #content-movil .content-main .elserve .col-xs-4 {
+    padding: 5px 10px 5px 15px;
+    word-wrap: break-word;
+    font-family: Conv_GothamHTF-Book;
+    font-size: 12px;
+  }
+  #content-movil .content-main .elserve .col-xs-4 .linea {
+    float: right;
+    color: #ffc107;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-right: -13px;
+  }
+  #content-movil .item strong {
+    display: block;
+    font-weight: inherit;
+    font-family: Conv_GothamHTF-bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 15px 0px;
+  }
+  #periodos {
+    margin: 30px auto 0;
+    float: none !important;
+    display: block;
+  }
+  .alert-box {
+    margin-top: 20px;
+  }
+  .tittle {
+    text-align: center;
+    margin: 10px 0 25px 0;
+  }
+  .container {
+    background-color: #fff;
+  }
+  .pagosPage {
+    padding: 0px;
+  }
+  .pagosPage .text-center {
+    background-color: #fff;
+  }
+  .pagosPage .background-default {
+    margin-right: -20px !important;
+    padding-right: 20px !important;
+    padding-left: 25px !important;
+    margin-left: -20px !important;
+  }
+  .pagosPage .rows span {
+    display: none;
+  }
+  .pagosPage .rows .fa-check {
+    margin: 0 auto;
+    display: block;
+  }
+  .pagosPage .tittle {
+    margin-top: 20px;
+  }
+  .pagosPage .top .colum {
+    padding: 0px;
+  }
+  .btn-login {
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+  .info-util {
+    background-color: #fff;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
+  }
+  .info-util .content-extra {
+    padding: 15px 10px;
+  }
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 2px;
+    font-weight: 700;
+    color: #6f6f6f;
+  }
+  .form-control {
+    border: 1px solid #c1bdbd;
+  }
+  .comunicados {
+    padding-right: 30px;
+    padding-left: 10px;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .comunicados .comunicado-date {
+    right: -7px;
+    top: 22px;
+  }
+  .comunicados .media-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-right: 40px;
+  }
+  .comunicados .comunicado-content {
+    margin: 10px 0px;
+    line-height: 18px;
+  }
+  .comunicados .title-comunicado {
+    text-align: center;
+    margin: 10px 0 25px 0;
+  }
+  .comunicados .icon-comunicados {
+    display: none;
+  }
+  .button-responsive {
+    position: absolute;
+  }
+  .navbar-nav {
+    margin-left: 10px;
+  }
+  .navbar-nav li a {
+    display: block;
+  }
+  .navbar-brand {
+    padding-right: 10px !important;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  .navbar-brand img {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main_optimize.css.map */
