@@ -75,15 +75,25 @@ public class NewServlet extends HttpServlet {
     
     personaEntidad odao=new personaEntidad();
     ResultSet rs = odao.verificarInicio(objPersona);
-    if(rs.next()){
-        if (rs.getString(1).equals("Admin")) {
-            
+        try {
+               if(rs.next()){
+        if (rs.getString(1).equals("Entrenador")) {
          response.sendRedirect("entrenadorInicio.jsp");
+        }
+        if (rs.getString(1).equals("Cliente")) {
+         response.sendRedirect("clientePrincipal.jsp");
+        }
+        if (rs.getString(1).equals("Administrador")) {
+         response.sendRedirect("administradorInicio.jsp");
         }
      
     }else{
        response.sendRedirect("menu.jsp");
     }
+        } catch (Exception e) {
+        }
+     
+ 
         
     }
     

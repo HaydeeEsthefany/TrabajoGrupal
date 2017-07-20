@@ -14,7 +14,11 @@ import java.sql.ResultSet;
 public class personaEntidad {
         public ResultSet verificarInicio(persona persona){
         try{
-            String sql= "Select 'Admin' from persona where Usuario='hola' and Contra='gato'";
+            String sql= "Select 'Cliente' from persona inner join cliente on cliente.persona_id = persona.persona_id  where Usuario='"+persona.getUsuario()+"' and Contra='"+persona.getContra()+"' "+
+                        " union  "+
+                        "Select tipo_empleado.nombre from persona inner join empleado on empleado.persona_id = persona.persona_id inner join tipo_empleado on"+
+                        " tipo_empleado.Tipo_Empleado_id = empleado.Tipo_Empleado_id where Usuario='"+persona.getUsuario()+"' and Contra='"+persona.getContra()+"' "       +
+                       " union select 'Ninguno'";
             conexion ocado= new conexion();
             
            return ocado.retorna_sql(sql);         

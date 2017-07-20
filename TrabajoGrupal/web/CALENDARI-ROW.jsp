@@ -29,73 +29,8 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar static-top navbar-toggleable-md navbar-inverse bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="Paginicio.html">GYM TRAINER</a>
-        <div class="collapse navbar-collapse" id="navbarExample">
-            <ul class="sidebar-nav navbar-nav">
-                
-                <li class="nav-item">
-                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents"><i class="fa fa-fw fa-wrench"></i> Clientes</a>
-                    <ul class="sidebar-second-level collapse" id="collapseComponents">
-                        <li>
-                            <a href="Agregacli.html">Agregar Clientes</a>
-                        </li>
-                        <li>
-                            <a href="Modifcli.html">Modificar Clientes</a>
-                        </li>
-                        <li>
-                            <a href="elimcli.html">Baja Clientes</a>
-                        </li>
-						<li>
-                            <a href="buscacli.html">Registro Clientes</a>
-                        </li>
-                        
-                    </ul>
-                </li>
-				<li class="nav-item">
-                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponentos"><i class="fa fa-fw fa-wrench"></i>Entrenadores</a>
-                    <ul class="sidebar-second-level collapse" id="collapseComponentos">
-                        <li>
-                            <a href="Agregaprofe.html">Agregar Entrenadores</a>
-                        </li>
-                        <li>
-                            <a href="Modifprofe.html">Modificar Entrenadores</a>
-                        </li>
-                        <li>
-                            <a href="elimprofe.html">Baja Entrenadores</a>
-                        </li>
-						<li>
-                            <a href="buscaprofe.html">Registro Entrenadores</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti"><i class="fa fa-fw fa-sitemap"></i>Servicios</a>
-                    <ul class="sidebar-second-level collapse" id="collapseMulti">
-                        <li>
-                            <a href="demos/CALENDARI-ROW.html">Agregar Servicio</a>
-                        </li>
-                        <li>
-                            <a href="buscaservi.html">Descripcion Servicio</a>
-                        </li>
-                        <li>
-                            <a href="AsignaPersonal.html">Asigna Servicio</a>
-                        </li>
-                    </ul>
-                </li>
-				
-            </ul>
-			<ul class="navbar-nav ml-auto">
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-fw fa-sign-out"></i> SALIR</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
+        <jsp:include page="administradorMenu.jsp" flush="true"/>
 
     <div class="content-wrapper py-3">
 

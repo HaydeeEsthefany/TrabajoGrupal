@@ -18,5 +18,5 @@ public class detalleEjerciciosServicio {
             private String       PorcentajeValor;
             private String 	Secuencia;
             private  ejercicio       Ejercicio_id;	
-            private  rutina      Rutina_Id;
+        
 }
